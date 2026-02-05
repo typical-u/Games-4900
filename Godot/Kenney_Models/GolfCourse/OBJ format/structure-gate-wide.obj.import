@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://jwasct0dm2nh"
+path="res://.godot/imported/structure-gate-wide.obj-8ab41da62a3cc3a8cc8182bf58bccdcf.mesh"
+
+[deps]
+
+files=["res://.godot/imported/structure-gate-wide.obj-8ab41da62a3cc3a8cc8182bf58bccdcf.mesh"]
+
+source_file="res://Kenney_Models/GolfCourse/OBJ format/structure-gate-wide.obj"
+dest_files=["res://.godot/imported/structure-gate-wide.obj-8ab41da62a3cc3a8cc8182bf58bccdcf.mesh", "res://.godot/imported/structure-gate-wide.obj-8ab41da62a3cc3a8cc8182bf58bccdcf.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

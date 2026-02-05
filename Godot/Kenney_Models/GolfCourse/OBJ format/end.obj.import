@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bhmeol5ohw2lc"
+path="res://.godot/imported/end.obj-a8b6afbe36d59619aa6a6c3f16aa866f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/end.obj-a8b6afbe36d59619aa6a6c3f16aa866f.mesh"]
+
+source_file="res://Kenney_Models/GolfCourse/OBJ format/end.obj"
+dest_files=["res://.godot/imported/end.obj-a8b6afbe36d59619aa6a6c3f16aa866f.mesh", "res://.godot/imported/end.obj-a8b6afbe36d59619aa6a6c3f16aa866f.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

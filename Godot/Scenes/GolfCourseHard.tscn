@@ -1,0 +1,91 @@
+[gd_scene format=3 uid="uid://ceh6lgjec5due"]
+
+[ext_resource type="PackedScene" uid="uid://bjbyiog3rhing" path="res://Kenney_Models/GolfCourse/FBX format/start.fbx" id="1_8hayi"]
+[ext_resource type="PackedScene" uid="uid://d23kuh8jbhje7" path="res://Kenney_Models/GolfCourse/FBX format/club-red.fbx" id="2_gi77r"]
+[ext_resource type="PackedScene" uid="uid://crjgfnycn5oaf" path="res://Kenney_Models/GolfCourse/FBX format/ball-red.fbx" id="3_1kn5x"]
+[ext_resource type="PackedScene" uid="uid://fwb7ymun47ic" path="res://Kenney_Models/GolfCourse/FBX format/split.fbx" id="4_hy13n"]
+[ext_resource type="PackedScene" uid="uid://ciojt8vqu2y76" path="res://Kenney_Models/GolfCourse/FBX format/side.fbx" id="5_sxqfy"]
+[ext_resource type="PackedScene" uid="uid://bajkmb17xke03" path="res://Kenney_Models/GolfCourse/FBX format/ramp-square.fbx" id="6_ud202"]
+[ext_resource type="PackedScene" uid="uid://snl8g8rg10sf" path="res://Kenney_Models/GolfCourse/FBX format/ramp.fbx" id="7_jq18x"]
+[ext_resource type="PackedScene" uid="uid://pkv138po2qo3" path="res://Kenney_Models/GolfCourse/FBX format/ramp-sharp.fbx" id="8_n6ksi"]
+[ext_resource type="PackedScene" uid="uid://delaenhgxdaer" path="res://Kenney_Models/GolfCourse/FBX format/round-corner-a.fbx" id="9_eurng"]
+[ext_resource type="PackedScene" uid="uid://drna8uxv2vidh" path="res://Kenney_Models/GolfCourse/FBX format/round-corner-b.fbx" id="10_5alq3"]
+[ext_resource type="PackedScene" uid="uid://dj7l4v6oxsm1d" path="res://Kenney_Models/GolfCourse/FBX format/straight.fbx" id="11_60q5t"]
+[ext_resource type="PackedScene" uid="uid://qsa4ja2rkb" path="res://Kenney_Models/GolfCourse/FBX format/structure-gate-building.fbx" id="12_pnc6l"]
+[ext_resource type="PackedScene" uid="uid://dorq4w4uiusya" path="res://Kenney_Models/GolfCourse/FBX format/structure-windmill.fbx" id="13_myfni"]
+[ext_resource type="PackedScene" uid="uid://cwdv4e4pbaxlh" path="res://Kenney_Models/GolfCourse/FBX format/round-corner-c.fbx" id="14_wfaqn"]
+[ext_resource type="PackedScene" uid="uid://demfhidlm1gn4" path="res://Kenney_Models/GolfCourse/FBX format/round-large-corner.fbx" id="15_mtodm"]
+[ext_resource type="PackedScene" uid="uid://d28kkjq6dwxj3" path="res://Kenney_Models/GolfCourse/FBX format/hole-open.fbx" id="16_j76c2"]
+[ext_resource type="PackedScene" uid="uid://c4on4qk26j2o4" path="res://Kenney_Models/GolfCourse/FBX format/open.fbx" id="17_noueb"]
+[ext_resource type="PackedScene" uid="uid://pho5qu348vmt" path="res://Kenney_Models/GolfCourse/FBX format/flag-green.fbx" id="18_gi77r"]
+
+[node name="GolfCourseHard" type="Node3D" unique_id=833148971]
+
+[node name="start" parent="." unique_id=1313625661 instance=ExtResource("1_8hayi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.926)
+
+[node name="club-red" parent="start" unique_id=1283112330 instance=ExtResource("2_gi77r")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.2400493, 0.8811789, 0.072720885)
+
+[node name="ball-red" parent="start/club-red" unique_id=1836383408 instance=ExtResource("3_1kn5x")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.22176063, -0.7420272, 0.10431099)
+
+[node name="split" parent="." unique_id=34722477 instance=ExtResource("4_hy13n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.05)
+
+[node name="side" parent="." unique_id=1530995425 instance=ExtResource("5_sxqfy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1.0484393)
+
+[node name="side2" parent="." unique_id=869159825 instance=ExtResource("5_sxqfy")]
+transform = Transform3D(-0.99999994, 0, -8.742277e-08, 0, 1, 0, 8.742277e-08, 0, -0.99999994, 0, 0, -2.0416164)
+
+[node name="ramp-square" parent="." unique_id=697346724 instance=ExtResource("6_ud202")]
+transform = Transform3D(-4.3711385e-08, 0, -0.99999994, 0, 1, 0, 0.99999994, 0, -4.3711385e-08, -0.89893687, 0, -1.0494891)
+
+[node name="ramp" parent="." unique_id=1772144537 instance=ExtResource("7_jq18x")]
+transform = Transform3D(-0.99999994, 0, -8.742277e-08, 0, 1, 0, 8.742277e-08, 0, -0.99999994, -0.0013768077, 0, -3.0406294)
+
+[node name="structure-windmill" parent="ramp" unique_id=387239616 instance=ExtResource("13_myfni")]
+transform = Transform3D(1, 4.597584e-08, 1.3065765e-08, -4.5975835e-08, 0.85054505, 0.5259023, 1.3065765e-08, -0.5259023, 0.85054505, -0.0009016758, 0.26524365, -0.0959301)
+
+[node name="ramp-sharp" parent="." unique_id=1067032675 instance=ExtResource("8_n6ksi")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0.9011644, 0, -2.0435684)
+
+[node name="round-corner-a" parent="." unique_id=183813666 instance=ExtResource("9_eurng")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8982114, 0, -2.0409365)
+
+[node name="round-corner-b" parent="." unique_id=1230765880 instance=ExtResource("10_5alq3")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -1.8975633, 0, -1.0496808)
+
+[node name="straight" parent="." unique_id=1913939805 instance=ExtResource("11_60q5t")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9021503, -0.0038733482, -3.0349665)
+
+[node name="structure-gate-building" parent="straight" unique_id=2089536368 instance=ExtResource("12_pnc6l")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.004347205, 0.0038733482, -0.29994917)
+
+[node name="straight2" parent="." unique_id=1632754744 instance=ExtResource("11_60q5t")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8955519, 0, -2.0329971)
+
+[node name="straight3" parent="." unique_id=1825537461 instance=ExtResource("11_60q5t")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.9975628, 0, -3.984542)
+
+[node name="round-corner-c" parent="." unique_id=1466033741 instance=ExtResource("14_wfaqn")]
+transform = Transform3D(-0.9998269, 0, 0.018604072, 0, 1, 0, -0.018604072, 0, -0.9998269, -1.8883076, 0, -3.0106487)
+
+[node name="round-corner-c2" parent="." unique_id=15197856 instance=ExtResource("14_wfaqn")]
+transform = Transform3D(-0.9998269, 0, 0.018604072, 0, 1, 0, -0.018604072, 0, -0.9998269, -0.98698246, 0, -4.981535)
+
+[node name="side3" parent="." unique_id=1278344362 instance=ExtResource("5_sxqfy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.9991253, 0, -2.9873738)
+
+[node name="round-large-corner" parent="." unique_id=1565993901 instance=ExtResource("15_mtodm")]
+transform = Transform3D(-0.0033685341, 0, 0.99999434, 0, 1, 0, -0.99999434, 0, -0.0033685341, 1.4025011, 0, -4.510526)
+
+[node name="hole-open" parent="." unique_id=1928030327 instance=ExtResource("16_j76c2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -4.042)
+
+[node name="open" parent="." unique_id=89782940 instance=ExtResource("17_noueb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0006942153, 0, -5.006369)
+
+[node name="flag-green" parent="." unique_id=1138745066 instance=ExtResource("18_gi77r")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.095718265, 0.057509065, -4.042985)
