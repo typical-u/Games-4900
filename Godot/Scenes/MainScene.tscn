@@ -1,11 +1,35 @@
 [gd_scene format=3 uid="uid://fsqlcu14qugq"]
 
 [ext_resource type="PackedScene" uid="uid://ceh6lgjec5due" path="res://Scenes/GolfCourseHard.tscn" id="1_hpc76"]
+[ext_resource type="PackedScene" uid="uid://bs72ogkvdd7d6" path="res://Controller/proto_controller.tscn" id="2_tr2i4"]
+[ext_resource type="PackedScene" uid="uid://cvfoyrgoythjt" path="res://Scenes/PressurePlate.tscn" id="3_nhkr4"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_hpc76"]
+size = Vector3(16, 1, 16)
+
+[sub_resource type="BoxMesh" id="BoxMesh_tr2i4"]
 
 [node name="Node3D" type="Node3D" unique_id=1308050229]
 
 [node name="GolfCourseHard" parent="." unique_id=833148971 instance=ExtResource("1_hpc76")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.039025307, 0, -1.51669)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.039025307, 0.48935032, -1.51669)
 
-[node name="Camera3D" type="Camera3D" parent="." unique_id=2044017898]
-transform = Transform3D(1, 0, 0, 0, 0.891758, 0.45251256, 0, -0.45251256, 0.891758, 0, 2.3619134, 1.100998)
+[node name="Floor" type="Node3D" parent="." unique_id=2041857576]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Floor" unique_id=139645510]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Floor/StaticBody3D" unique_id=1012881504]
+shape = SubResource("BoxShape3D_hpc76")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Floor" unique_id=663127574]
+transform = Transform3D(16, 0, 0, 0, 1, 0, 0, 0, 16, 0, 0, 0)
+mesh = SubResource("BoxMesh_tr2i4")
+
+[node name="ProtoController" parent="." unique_id=938842961 instance=ExtResource("2_tr2i4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.8724481, 0.5, 4.101498)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1238765620]
+transform = Transform3D(1, 0, 0, 0, 0.7482498, 0.66341704, 0, -0.66341704, 0.7482498, 0, 8.187548, 9.885181)
+
+[node name="PressurePlate" parent="." unique_id=380058608 instance=ExtResource("3_nhkr4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.26831436, 0.5142184, 1.5081345)
