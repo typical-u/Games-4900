@@ -3,11 +3,17 @@
 [ext_resource type="PackedScene" uid="uid://ceh6lgjec5due" path="res://Scenes/GolfCourseHard.tscn" id="1_hpc76"]
 [ext_resource type="PackedScene" uid="uid://bs72ogkvdd7d6" path="res://Controller/proto_controller.tscn" id="2_tr2i4"]
 [ext_resource type="PackedScene" uid="uid://cvfoyrgoythjt" path="res://Scenes/PressurePlate.tscn" id="3_nhkr4"]
+[ext_resource type="Script" uid="uid://cs14lkocm33kr" path="res://Scripts/Caller.gd" id="4_qxria"]
+[ext_resource type="Script" uid="uid://djucetb11sq37" path="res://Scripts/Receiver.gd" id="5_y4jh7"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_hpc76"]
 size = Vector3(16, 1, 16)
 
 [sub_resource type="BoxMesh" id="BoxMesh_tr2i4"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_nhkr4"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_7rqgy"]
 
 [node name="Node3D" type="Node3D" unique_id=1308050229]
 
@@ -33,3 +39,18 @@ transform = Transform3D(1, 0, 0, 0, 0.7482498, 0.66341704, 0, -0.66341704, 0.748
 
 [node name="PressurePlate" parent="." unique_id=380058608 instance=ExtResource("3_nhkr4")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.26831436, 0.5142184, 1.5081345)
+
+[node name="Caller" type="Node3D" parent="." unique_id=388791827 node_paths=PackedStringArray("receiver")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.5301974, 0.7170702, 0)
+script = ExtResource("4_qxria")
+receiver = NodePath("../Receiver")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Caller" unique_id=1008865992]
+mesh = SubResource("BoxMesh_nhkr4")
+
+[node name="Receiver" type="Node3D" parent="." unique_id=745363317]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.8253365, 0.7170702, 0)
+script = ExtResource("5_y4jh7")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Receiver" unique_id=1156375327]
+mesh = SubResource("BoxMesh_7rqgy")
