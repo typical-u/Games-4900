@@ -5,6 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Interchange/Assets/Content/gltf/M_Default.uasset",
+				"C:/Users/u1512656/Documents/GitHub/Games-4900/Unreal/Content/Input/IMC_Default.uasset",
+				"C:/Users/u1512656/Documents/GitHub/Games-4900/Unreal/Content/Input/Actions/IA_Attack.uasset",
+				"C:/Users/u1512656/Documents/GitHub/Games-4900/Unreal/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"C:/Users/chenc/Documents/1. University/4. Game Engine/Replace/Unreal4900/Content/ThirdPerson/MI_ThirdPersonColWay.uasset",
 				"C:/Users/chenc/Documents/1. University/4. Game Engine/Replace/Unreal4900/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/W0/RTEFXSATTAVCPYEQHKNEY1.uasset",
 				"C:/Users/chenc/Documents/1. University/4. Game Engine/Replace/Unreal4900/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/D/V1/DLNCFC4C5RQ8EDPCDYCKHQ.uasset",
@@ -54,7 +58,6 @@
 				"C:/Users/chenc/Documents/1. University/4. Game Engine/Replace/Unreal4900/Content/FirstPerson/Lvl_FirstPerson.umap",
 				"C:/Users/chenc/Documents/1. University/4. Game Engine/Replace/Unreal4900/Content/Blueprints/BP_Coin.uasset",
 				"C:/Users/chenc/Documents/1. University/4. Game Engine/Replace/Unreal4900/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/8/TY/IX3K77D3KYG5J5W1F800M3.uasset",
-				"C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Interchange/Assets/Content/gltf/M_Default.uasset",
 				"C:/Users/chenc/Documents/1. University/4. Game Engine/Replace/Unreal4900/Content/Kenney_Assets/MiniGolf/FBX_format/ball-blue.uasset",
 				"C:/Users/chenc/Documents/1. University/4. Game Engine/Replace/Unreal4900/Content/Kenney_Assets/MiniGolf/GLB_format/ball-blue/StaticMeshes/ball-blue.uasset",
 				"C:/Users/chenc/Documents/1. University/4. Game Engine/Replace/Unreal4900/Content/Kenney_Assets/MiniGolf/OBJ_format/ball-blue.uasset",
