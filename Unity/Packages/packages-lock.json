@@ -10,7 +10,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.burst": {
-      "version": "1.8.28",
+      "version": "1.8.26",
       "depth": 2,
       "source": "registry",
       "dependencies": {
@@ -183,7 +183,7 @@
       }
     },
     "com.unity.scriptablebuildpipeline": {
-      "version": "2.5.2",
+      "version": "2.4.3",
       "depth": 2,
       "source": "registry",
       "dependencies": {
