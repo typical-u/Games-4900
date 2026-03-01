@@ -3,6 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://ceh6lgjec5due" path="res://Scenes/GolfCourseHard.tscn" id="1_hpc76"]
 [ext_resource type="PackedScene" uid="uid://bs72ogkvdd7d6" path="res://Controller/proto_controller.tscn" id="2_tr2i4"]
 [ext_resource type="PackedScene" uid="uid://cvfoyrgoythjt" path="res://Scenes/PressurePlate.tscn" id="3_nhkr4"]
+[ext_resource type="PackedScene" uid="uid://d4mp3hgwm6sme" path="res://Scenes/InputHandler.tscn" id="4_7rqgy"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_hpc76"]
 size = Vector3(16, 1, 16)
@@ -33,3 +34,6 @@ transform = Transform3D(1, 0, 0, 0, 0.7482498, 0.66341704, 0, -0.66341704, 0.748
 
 [node name="PressurePlate" parent="." unique_id=380058608 instance=ExtResource("3_nhkr4")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.26831436, 0.5142184, 1.5081345)
+
+[node name="InputHandler" parent="." unique_id=837018683 instance=ExtResource("4_7rqgy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.94909096, 0.49999952, -0.026667595)
