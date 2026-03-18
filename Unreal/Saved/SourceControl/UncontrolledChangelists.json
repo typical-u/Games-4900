@@ -6,6 +6,9 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Interchange/Assets/Content/gltf/M_Default.uasset",
+				"C:/Users/chenc/Documents/1. University/4. Game Engine/Games4900_Local/Games-4900/Unreal/Content/Input/IMC_Default.uasset",
+				"C:/Users/chenc/Documents/1. University/4. Game Engine/Games4900_Local/Games-4900/Unreal/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/chenc/Documents/1. University/4. Game Engine/Games4900_Local/Games-4900/Unreal/Content/Input/IMC_Player.uasset",
 				"C:/Users/u1512656/Documents/GitHub/Games-4900/Unreal/Content/Input/IMC_Default.uasset",
 				"C:/Users/u1512656/Documents/GitHub/Games-4900/Unreal/Content/Input/Actions/IA_Attack.uasset",
 				"C:/Users/u1512656/Documents/GitHub/Games-4900/Unreal/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
