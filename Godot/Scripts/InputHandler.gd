@@ -4,8 +4,13 @@ var attack_held := false
 
 func _process(delta: float) -> void:
 	if Input.is_action_just_pressed("attack"):
+<<<<<<< HEAD
 		attack_held = true
 		print("Attack Pressed")
+=======
+		#attack_held = true
+		print("Attack!!")
+>>>>>>> a04-attack-input
 	
 	if Input.is_action_just_released("attack"):
 		attack_held = false

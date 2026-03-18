@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 [gd_scene format=3 uid="uid://d4mp3hgwm6sme"]
 
 [ext_resource type="Script" uid="uid://bwfmj3hcvj82f" path="res://Scripts/InputHandler.gd" id="1_2kfyt"]
 
 [node name="InputHandler" type="Node3D" unique_id=837018683]
+=======
+[gd_scene format=3 uid="uid://b11wcyumumcmk"]
+
+[ext_resource type="Script" uid="uid://dxdbdhemfegb4" path="res://Scripts/InputHandler.gd" id="1_2kfyt"]
+
+[node name="InputHandler" type="Node3D" unique_id=181040261]
+>>>>>>> a04-attack-input
 script = ExtResource("1_2kfyt")
