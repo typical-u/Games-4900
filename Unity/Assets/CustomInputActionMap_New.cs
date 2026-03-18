@@ -115,7 +115,7 @@ public partial class @CustomInputActionMap_New: IInputActionCollection2, IDispos
                 {
                     ""name"": """",
                     ""id"": ""8d662dfa-f75a-424f-a80a-9f853935e858"",
-                    ""path"": ""<Keyboard>/space"",
+                    ""path"": ""<Mouse>/leftButton"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",

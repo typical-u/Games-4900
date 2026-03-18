@@ -16,7 +16,7 @@ public class InputHandler_New : MonoBehaviour
         input.Player.Enable();
 
         input.Player.Attack.performed += AttackPressed;
-        input.Player.Attack.started += _ => attackHeld = true;
+        //input.Player.Attack.started += _ => attackHeld = true;
         input.Player.Attack.canceled += AttackReleased;
     }
 
@@ -37,7 +37,7 @@ public class InputHandler_New : MonoBehaviour
             transform.position += new Vector3(move.x, move.y, 0) * 0.01f;
         }
     }
-    private void AttackPressed(InputAction.CallbackContext _) => Debug.Log("Attack Pressed");
+    private void AttackPressed(InputAction.CallbackContext _) => Debug.Log("Attack!!");
 
     private void AttackReleased(InputAction.CallbackContext _)
     {
